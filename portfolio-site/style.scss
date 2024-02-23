@@ -1,0 +1,36 @@
+@import './node_modules/reset-css/sass/_reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import './src/styles/header.scss';
+@import './src/styles/intro.scss';
+@import './src/styles/portfolio.scss';
+@import './src/styles/skills.scss';
+@import './src/styles/footer.scss';
+
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+	position: relative;
+}
+section {
+	margin: 100px 0;
+}
+h2 {
+	font-size: 24px;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+h3 {
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+.bold-text {
+	font-weight: 600;
+}

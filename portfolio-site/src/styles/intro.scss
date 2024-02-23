@@ -1,0 +1,35 @@
+.intro {
+	&__information {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+	}
+	&__image-wrapper {
+		text-align: center;
+	}
+	&__title {
+		font-size: 48px;
+		text-align: center;
+		font-weight: 700;
+	}
+	&__welcome-text {
+		font-size: 17px;
+		font-weight: 500;
+	}
+	&__photo {
+		max-width: 150px;
+	}
+	&__contact-btn {
+		background-color: black;
+		padding: 10px 20px;
+		color: white;
+		border: none;
+		border-radius: 18px;
+		&:hover {
+			background-color: rgb(54, 54, 54);
+			cursor: pointer;
+		}
+	}
+}
