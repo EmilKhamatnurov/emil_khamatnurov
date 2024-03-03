@@ -34,3 +34,57 @@ h3 {
 .bold-text {
 	font-weight: 600;
 }
+
+.circle_blue {
+	position: absolute;
+	top: 10%;
+	right: -4%;
+	width: 370px;
+	height: 370px;
+	filter: blur(70px);
+	z-index: -100;
+	background: #ff0000b8;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 200px;
+	animation: circle-animation-1 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.circle_purple {
+	position: absolute;
+	top: 15%;
+	left: -4%;
+	width: 370px;
+	height: 370px;
+	filter: blur(70px);
+	z-index: -100;
+	background: #b700ff9f;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 200px;
+	animation: circle-animation-2 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes circle-animation-1 {
+	from {
+		transform: translateY(-100px);
+	}
+
+	to {
+		transform: translateY(100px);
+	}
+}
+
+@keyframes circle-animation-2 {
+	from {
+		transform: translateY(100px);
+	}
+
+	to {
+		transform: translateY(-100px);
+	}
+}
