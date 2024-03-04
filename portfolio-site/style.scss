@@ -88,3 +88,11 @@ h3 {
 		transform: translateY(-100px);
 	}
 }
+
+@media (min-width: 1500px) {
+	.circle_purple,
+	.circle_blue {
+		width: 450px;
+		height: 450px;
+	}
+}
